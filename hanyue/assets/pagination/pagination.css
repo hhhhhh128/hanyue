@@ -1,0 +1,54 @@
+.pagination {
+      width: 870px;
+      height: 80px;
+      margin-left: 28px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+    }
+
+    .pagination > .sizeList {
+      height: 25px;
+      padding: 0 3px;
+      outline: none;
+    }
+
+    .pagination p {
+      padding: 2px 5px;
+      margin: 0 5px;
+      cursor: pointer;
+      background-color: #f4f4f4;
+    }
+
+    .pagination span {
+      padding: 2px 5px;
+      margin: 0 5px;
+      background-color: #f4f4f4;
+    }
+
+    .pagination > .list {
+      display: flex;
+    }
+
+    .pagination > .jumpText {
+      height: 22px;
+      width: 30px;
+      text-align: center;
+      outline: none;
+    }
+
+    .pagination > .jumpBtn {
+      padding: 2px 5px;
+      cursor: pointer;
+    }
+
+    .pagination .disable {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    .pagination .active {
+      background-color: #FF1268;
+      color: #fff;
+    }

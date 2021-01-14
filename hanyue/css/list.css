@@ -1,0 +1,235 @@
+
+.top>.top_3{
+    margin-left: 250px;
+}
+
+.search_box{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 14px;
+}
+.search_box > span{
+    color: #FF1268;
+}
+
+
+
+/* 列表 */
+ .list_a{
+    width: 1200px;
+    min-height: 200px;
+    /* background-color: #FF1268; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+} 
+/* 左边 */
+.list_a > .list_left{
+    width: 928px;
+    /* background-color: rgb(223, 103, 103); */
+    border: 1px solid #ebebeb;
+}
+
+/* 分类  标题 */
+.main > ul >li{
+    width: 878px;
+    min-height: 105px;
+    /* background-color: #ebebeb; */
+    display: flex;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 24px;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+}
+.main > ul > li >.left{
+    width: 80px;
+    /* height: 84px; */
+    margin-right: 18px;
+    text-align: right;
+}
+.main > ul > li > .right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+  }
+.cat_one > .right>.select{
+    width: 780px;
+    height: 26px;
+}
+.main > ul > li > .right > span{
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.main > ul > li > .right >.active,
+ .main >ul>li > .right > span:hover { 
+  color: #fff;
+  background-color:#FF1268;
+
+}
+
+
+/* 排序 */
+.list_connect{
+    width: 928px;
+    min-height: 500px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+
+}
+.list_connect > .left{
+    width: 928px;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.list_connect > .left>.left_title{
+    display: flex; 
+}
+.list_connect >.left> .left_title >li{
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* .list_connect > .left >.right{
+  width: 107px;
+  border-left: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+} */
+/* 主要内容 */
+.items{
+   width: 870px;
+   min-height: 250px;
+   margin: 0 auto;
+   /* background-color: aqua; */
+   border-bottom: 1px solid #ccc;
+   display: flex;
+   flex-direction: column;
+ 
+}
+.items > li {
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+ 
+}
+.items > li >img{
+    width: 153px;
+    height: 206px;
+    margin-right: 20px;
+}
+.items >li > .items_con{
+    position: relative;
+}
+.items > li >.items_con >.items_top > .con_1  {
+    font-size: 14px;
+    color: #999;
+
+
+}
+.items > li >.items_con >.items_top>.con_1>.icon{
+    width: 17px;
+    height: 19px;
+    color: #FF1268;
+    margin-top: 6px;
+}
+
+ .items > li >.items_con > .price{
+    height: 21px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} 
+.items > li >.items_con > .price > .pri{
+    color: #FF1268;
+    margin-right: 25px;
+}
+.items > li >.items_con > .price > span{
+    color: #999;
+}
+
+
+
+/* 右边 */
+.list_a > .list_right{
+    width: 258px;
+    /* background-color: aquamarine; */
+   height: 500px;
+   border: 1px solid #ccc;
+}
+.list_a > .list_right > p{
+    height: 38px;
+    padding-left: 15px;
+    line-height: 38px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+.list_a > .list_right > .list_con{
+    width: 258px;
+    height: 456px;
+    padding: 20px 10px 0;
+    box-sizing: border-box;
+    display: flex;
+  
+}
+.list_a > .list_right > .list_con >li>img{
+    width: 98px;
+    height: 132px;
+    margin-right: 15px;
+    
+}
+/* 右边内容样式 */
+.list_right > .list_con{
+    display: flex;
+    flex-direction: column;
+}
+.list_right > .list_con >li{
+    display: flex;
+    height: 132px;
+    margin-bottom: 15px;
+}
+.list_right > .list_con >li>.iteminfo{
+    position: relative;
+    width: 125px;
+}
+.list_right > .list_con >li>.iteminfo >span{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+.list_right > .list_con >li>.iteminfo >p{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-bottom: 3px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list_right > .list_con >li>.iteminfo > .price{
+    height: 21px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FF1268;
+}
+

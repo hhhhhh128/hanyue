@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+
+    <title>大麦搜索</title>
+    <script src="./../assets/font_2210019_l0jrqp1sz4l/iconfont.js"> </script>
+    <link rel="stylesheet" href="./../css/public.css">
+    <link rel="stylesheet" href="./../css/list.css">
+    <link rel="stylesheet" href="./../assets/pagination/pagination.css">
+
+
+</head>
+<body>
+    <!-- header -->
+    <div class="top">
+        <img src="./../images/logo.png" alt="">
+        <div class="top_2">
+            <a href="./index.html" >首页</a>
+            <a href="#" class="active">分类</a>
+        </div>
+        <div class="top_3">
+            <div class="top_3t">
+                <input type="text" placeholder="搜索明星、演出、体育赛事">
+                <svg class="icon" aria-hidden="true"><use xlink:href="#icondamai-sousuo"></use></svg>
+                <div class="search">搜索</div>
+            </div>
+
+            <ul class="top_3b"></ul>
+           
+        </div>
+        <div class="top_4">
+            <img src="./../images/登录.png" alt=""><span class="off "><a class="off hide" href="./../views/login.html">登录</a></span>
+            <span class="on hide"> </span>
+            <img src="./../images/下载.png" alt=""><span>下载</span>
+            <img src="./../images/EN.png" alt=""><span>English</span> 
+        </div>
+    </div>
+
+    <div class="list_a">
+        <!-- 左边 -->
+        <div class="list_left">
+            <!-- 分类渲染 -->
+            <div class="main">
+                <ul>
+                    <li class="cat_one">
+                      <div class="left">城市：</div>
+                      <div class="right">
+                            <span class="active">全部</span>  
+                      </div>
+                    </li>
+                    <li class="cat_two">
+                      <div class="left">分类：</div>
+                      <div class="right">
+                        <span class="active">全部</span>
+                        
+                      </div>
+                    </li>
+                    <li class="cat_three">
+                      <div class="left">时间：</div>
+                      <div class="right">
+                        <span class="active">全部</span>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 下面内容 -->
+
+            <div class="list_connect">
+                <!--  第一行  排序-->
+                <div class="left">
+                    <ul class="left_title">
+                        <li  data-sort="id" class="active">最近上架</li>  
+                        <li  data-sort="price">价格排序</li>
+                        <li  data-sort="price" >推荐排序</li>
+                        <li  data-sort="price" >最近开场</li> 
+                    </ul>
+                </div>
+
+                <!-- 主要内容 -->
+                <ul class="items"></ul>
+                <!--分页器 -->
+                <div class="pagination"></div>
+            </div>
+            
+        </div>
+
+        <!-- 右边 -->
+        <div class="list_right">
+            <p>您可能还喜欢</p>
+            <ul class="list_con">
+                <li>
+                    <img src="./../images/big.jpg" alt="">
+                    <div class="iteminfo">
+                        <span>2021隔壁老樊“绽放”专场音乐会</span>
+                        <p>北京展览馆剧场</p>
+                        <p>2021.01.23 周六 19:00</p>
+                        <div class="price"><span>￥</span>124<span>起</span></div>
+                    </div>
+                </li>
+                <!--  222222222222222222222222222222222222222222-->
+                <li>
+                    <img src="./../images/xby.jpg" alt="">
+                    <div class="iteminfo">
+                        <span>2020第六届北京国际流行音乐周 胡66《123》北京音乐派对</span>
+                        <p>糖果TANGO-雍和宫店三层</p>
+                        <p>2021.01.23 周六 19:30</p>
+                        <div class="price"><span>￥</span>108<span>起</span></div>
+                    </div>
+                </li>
+                <!--  333333333333333333333333333-->
+                <li>
+                    <img src="./../images/small.jpg" alt="">
+                    <div class="iteminfo">
+                        <span>跳跳迎新春 新年音乐会</span> 
+                        <p>MAO Livehouse北京</p>
+                        <p>2021.01.16 周六 20:00</p>
+                        <div class="price"><span>￥</span>110<span>起</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+    
+    
+    </div>
+
+    
+    <!-- 侧边栏 -->
+
+    <div class="sub">
+        <div class="sub_top">
+            <p>大麦</p>
+            <span>APP下载</span>
+        </div>
+        <div class="sub_bottom">
+        <p><svg class="icon" aria-hidden="true"><use xlink:href="#iconhuidaodingbu"></use></svg></p> 
+            <span>回到顶部</span>
+        </div>
+    </div>
+
+     <!-- footer -->
+     <div class="footer">
+        <div class="footer_list">
+            <ul>
+                <li><a href="#">帮助中心</a> <span>|</span></li>
+                <li><a href="#">公司介绍</a> <span>|</span></li>
+                <li><a href="#">品牌识别</a> <span>|</span></li>
+                <li><a href="#">公司大事记</a> <span>|</span></li>
+                <li><a href="#">协议及隐私权政策</a> <span>|</span></li>
+                <li><a href="#">廉政举报</a> <span>|</span></li>
+                <li><a href="#">联系合作</a> <span>|</span></li>
+                <li><a href="#">招聘信息</a> <span>|</span></li>
+                <li><a href="#">防骗秘籍</a> </li>
+            </ul>
+            <div class="footer_main">
+                <!-- right -->
+                <div class="main_r">
+                    <a href="./index.html"><img src="./../images/logo1.png" alt=""></a>
+                    <p>
+                        <img src="./../images/APP.jpg" alt="">
+                        <span>App 下载</span>   
+                    </p>
+                </div>
+                <!-- left -->
+                <div class="main_l">
+                    <div class="mian_service">在线客服</div>
+                    <ul class="main_t">
+                        <li><a href="#">京ICP证031057号</a><span>|</span></li>
+                        <li><a href="#">京ICP备11043884号</a><span>|</span></li>
+                        <li><a href="#">京公网安备11010502037341号</a><span>|</span></li>
+                        <li><a href="#">广播电视节目制作经营许可证(京)字第02253号</a></li>
+                    </ul>
+                    <ul class="main_t">
+                        <li><a href="#">网络文化经营许可证京网文[2016]3438-413号</a><span>|</span></li>
+                        <li><a href="#">营业性演出许可证京市演587号</a></li>
+                    </ul>
+                    <ul class="main_t">
+                        <li><a href="#">北京红马传媒文化发展有限公司 版权所有</a></li>
+                        <li><a href="#">大麦网</a></li>
+                        <li><a href="#">2003-2018 All Rights Reserved</a></li>
+                    </ul>
+                    <ul class="main_t">
+                        <li><a href="#">举报投诉邮箱：damai_tousu@member.alibaba.com</a></li>
+                    </ul>
+                  
+                    <div class="main_img">
+                        <a href="#"><img src="./../images/1.gif" alt=""></a>
+                        <a href="#"><img src="./../images/电子营业执照.png" alt=""></a>
+                        <a href="#"><img src="./../images/pci.png" alt=""></a>
+                        <a href="#"><img src="./../images/2.png" alt=""></a>
+                        <a href="#"><img src="./../images/信.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <script src="./../assets/jquery/jquery.min.js"></script>
+     <script src="./../js/public.js"></script>
+     <script src="./../assets/pagination/pagination.js"></script>
+     <script src="./../js/utils.js"></script>
+     <script src="./../js/list.js"></script>
+
+
+</body>
+</html>

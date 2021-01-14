@@ -1,0 +1,70 @@
+.main{
+    min-height: 200px;
+    background-color: #F8F8F8;
+    padding-top: 30px;
+}
+form{
+    width: 1200px;
+    min-height: 100px;
+    margin:0 auto;
+   background-color: #fff; 
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+}
+form > label{
+    width: 720px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+form > label .main_l{
+    width: 240px;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+form > label >input:hover{
+    border:1px solid #FF48AB;
+}
+form > label .main_l > span{
+    color: red;
+}
+form > label >input{
+    width: 298px;
+    height: 38px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 3px;  
+}
+form > .agree{
+    width: 300px;
+    font-size: 14px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 160px;
+    
+}
+form > .agree >input{
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+form > .btn {
+    text-align: center;
+}
+form > .btn >input{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    background-color:#FF48AB; 
+}
+
